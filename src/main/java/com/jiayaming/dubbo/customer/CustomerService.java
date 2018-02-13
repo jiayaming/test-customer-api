@@ -8,4 +8,6 @@ public interface CustomerService {
 	public Map<String, Object> validatePasswordByUserInfo(Map<String, Object> param) throws Exception;
 	
 	public Map<String, Object> getValidateCodePicture() throws Exception;
+	
+	public Map<String, Object> saveRegisterInfo(Map<String, Object> map) throws Exception;
 }
