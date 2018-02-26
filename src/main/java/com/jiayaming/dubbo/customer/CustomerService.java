@@ -10,4 +10,6 @@ public interface CustomerService {
 	public Map<String, Object> getValidateCodePicture() throws Exception;
 	
 	public Map<String, Object> saveRegisterInfo(Map<String, Object> map) throws Exception;
+	
+	public int saveCustomerInfo(Map<String, Object> map) throws Exception;
 }
